@@ -1,0 +1,76 @@
+.advantages {
+  @include font-regular;
+  background-color: $bg-white;
+  margin-bottom: 42px;
+}
+
+.advantages__title {
+  font-size: $fz-36;
+  color: $color-black;
+  line-height: 60px;
+  font-weight: 400;
+  margin-top: 20px;
+  margin-bottom: 35px;
+}
+
+.advantages__list {
+  margin: 0;
+  padding: 0;
+}
+
+.advantages__item {
+  @include ff-arial-regular;
+  list-style-type: none;
+  color: $color-dark-grey;
+  font-size: $fz-14;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.advantages__item p {
+  position: relative;
+  margin-left: 80px;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: 18px;
+}
+
+.advantages__item--leaf::before {
+  content: url("../../img/advantage-leaf@1x.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: $bg-green;
+  padding: 5px;
+  position: absolute;
+}
+
+.advantages__item--glass::before {
+  content: url("../../img/advantage-powder@1x.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: $bg-green;
+  padding: 5px;
+  position: absolute;
+}
+
+.advantages__item--knife::before {
+  content: url("../../img/advantage-dining@1x.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: $bg-green;
+  padding: 5px;
+  position: absolute;
+}
+
+.advantages__item--clock::before {
+  content: url("../../img/advantage-clock@1x.png");
+  width: 50px;
+  height: 50px;
+  display: inline-block;
+  background-color: $bg-green;
+  padding: 5px;
+  position: absolute;
+}

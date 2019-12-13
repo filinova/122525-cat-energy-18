@@ -1,0 +1,24 @@
+.all-products {
+  @include font-regular;
+  text-align: center;
+}
+
+.all-products__title {
+  display: block;
+  margin-top: 85px;
+}
+
+.all-products__descr {
+  display: block;
+  font-family: "Arial", sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  margin-bottom: 25px;
+  margin-top: 15px;
+}
+
+.all-products__btn {
+  display: block;
+  color: $color-dark-grey;
+  background: $bg-grey;
+}

@@ -1,0 +1,21 @@
+@mixin visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  clip: rect(0, 0, 0, 0);
+}
+
+@mixin font-regular {
+  font-family: $font-fam;
+  font-weight: 400;
+}
+
+@mixin font-medium {
+  font-family: $font-fam;
+  font-weight: 500;
+}
+
+@mixin ff-arial-regular {
+  font-family: "Arial", sans-serif;
+  font-weight: 400;
+}

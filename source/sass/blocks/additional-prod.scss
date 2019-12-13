@@ -1,0 +1,38 @@
+.additional-prod {
+  @include font-regular;
+  color: $color-dark-grey;
+  border: 5px solid gold;
+}
+
+.additional-prod__title {
+  margin-top: 35px;
+  margin-bottom: 30px;
+  color: $color-black;
+}
+
+.additional-prod__item:first-child {
+  border-top: 1px solid #e6e6e6;
+}
+
+.additional-prod__item {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.additional-prod__name {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.additional-prod__prop {
+  display: block;
+  margin-bottom: 15px;
+}
+
+.additional-prod__btn {
+  display: block;
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 17px;
+}

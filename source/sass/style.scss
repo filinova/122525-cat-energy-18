@@ -1,0 +1,55 @@
+@import "normalize.scss";
+@import "variables.scss";
+@import "mixins.scss";
+@import "blocks/page-header.scss";
+@import "blocks/logo.scss";
+@import "blocks/main-nav.scss";
+@import "blocks/promo.scss";
+@import "blocks/program.scss";
+@import "blocks/advantages.scss";
+@import "blocks/profit.scss";
+@import "blocks/page-footer";
+@import "blocks/contacts.scss";
+@import "blocks/social.scss";
+@import "blocks/copyright";
+@import "blocks/btn.scss";
+@import "blocks/products.scss";
+@import "blocks/all-products";
+@import "blocks/additional-prod";
+@import "blocks/stock.scss";
+@import "blocks/page.scss";
+@import "blocks/program-form";
+@import "blocks/map";
+@import "blocks/footer";
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldmedium.woff2"), url("../fonts/oswaldmedium.woff");
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Oswald";
+  src: url("../fonts/oswaldregular.woff2"), url("../fonts/oswaldregular.woff");
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 280px;
+  margin: 0 auto;
+}
+
+body {
+  background: $bg-white;
+  color: $color-white;
+}
+
+.visually-hidden {
+  position: absolute;
+  clip: rect(0 0 0 0);
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+}

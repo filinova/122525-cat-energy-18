@@ -1,0 +1,25 @@
+.contacts {
+  @include font-regular;
+  background-color: $color-white;
+}
+
+.contacts-wrapper {
+  display: flex;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
+
+.contacts__title {
+  font-size: $base-fz;
+  color: $color-black;
+  line-height: 20px;
+  text-transform: uppercase;
+  margin-right: 19px;
+}
+
+.contacts__address {
+  font-family: $font-Arial;
+  font-size: $fz-14;
+  line-height: 20px;
+  color: $color-dark-grey;
+}

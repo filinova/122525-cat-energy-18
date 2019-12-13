@@ -1,0 +1,36 @@
+.products {
+  @include font-regular;
+  color: $color-black;
+  border: 5px solid gold;
+}
+
+.products__title {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  padding-top: 32px;
+  padding-bottom: 40px;
+  margin: 0;
+}
+
+.product-card {
+  border-bottom: 1px solid #e6e6e6;
+}
+
+.product-card__prop-list {
+  width: 140px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.product-card__prop-value {
+  margin: 0;
+}
+
+.product-card__btn {
+  display: block;
+  color: $color-white;
+  text-align: center;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
