@@ -1,0 +1,24 @@
+.page-header {
+  background-color: $bg-white;
+}
+
+.page-header-row {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo__img--mobile {
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+
+.page-header__title {
+  @include visually-hidden;
+}
+
+.burger {
+  cursor: pointer;
+  border: none;
+  background: none;
+  padding: 0;
+}

@@ -1,0 +1,25 @@
+.copyright {
+  @include font-regular;
+  padding-top: 6px;
+  padding-bottom: 22px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.copyright__owner {
+  font-family: $font-Arial;
+  font-size: $base-fz;
+  line-height: 16px;
+  color: $color-dark-grey;
+}
+
+.copyright__link {
+  margin-top: 2px;
+  margin-right: -8px;
+}
+
+.copyright__link img {
+  width: 41px;
+  height: 60px;
+}

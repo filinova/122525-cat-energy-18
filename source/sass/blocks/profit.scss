@@ -1,0 +1,119 @@
+.profit {
+  @include font-regular;
+  background-color: $bg-grey;
+  padding-top: 17px;
+}
+
+.profit__title {
+  font-size: $fz-36;
+  line-height: 60px;
+  font-weight: 400;
+  color: $color-black;
+  margin: 0;
+  margin-bottom: 23px;
+}
+
+.profit__descr {
+  @include ff-arial-regular;
+  color: $color-dark-grey;
+  font-size: $fz-14;
+  line-height: 18px;
+  padding-bottom: 27px;
+  margin: 0;
+}
+
+.profit__list {
+  margin: 0;
+  margin-bottom: 33px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.profit__item {
+  list-style-type: none;
+  color: $color-black;
+  font-size: $fz-24;
+  line-height: 24px;
+  text-transform: uppercase;
+  width: 124px;
+  padding-top: 11px;
+  padding-bottom: 18px;
+  border: 1px solid $border-grey;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  border-radius: 3px;
+}
+
+.profit__item--small {
+  font-family: $font-Arial;
+  font-size: $fz-12;
+  line-height: 12px;
+  color: $color-dark-grey;
+  text-transform: none;
+  text-align: center;
+  border: none;
+  position: absolute;
+  bottom: -15px;
+  background-color: #f2f2f2;
+  width: 54px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.profit__cost {
+  font-size: $fz-14;
+  color: $color-black;
+  text-transform: uppercase;
+  line-height: 20px;
+  margin: 0;
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.profit__before-img {
+  width: 311px;
+  height: 232px;
+  margin-bottom: 29px;
+}
+
+.profit__point {
+  color: $color-black;
+  font-size: $base-fz;
+  line-height: 20px;
+  text-transform: uppercase;
+}
+
+.progress-wrapper {
+  width: 200px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 35px;
+}
+
+.progressbar {
+  width: 70px;
+  height: 6px;
+  background-color: $bg-white;
+  border: 1px solid $border-grey;
+  border-radius: 6px;
+  padding-top: 3px;
+  padding-right: 6px;
+  padding-bottom: 3px;
+  padding-left: 6px;
+}
+
+.progressbar > span {
+  width: 35px;
+  display: block;
+  height: 100%;
+  background-color: $bg-green;
+  border-radius: 3px;
+}

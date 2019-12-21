@@ -1,0 +1,50 @@
+.additional-prod {
+  @include font-regular;
+  color: $color-dark-grey;
+  margin-bottom: 39px;
+}
+
+.additional-prod__title {
+  @include font-regular;
+  margin-top: 28px;
+  margin-bottom: 35px;
+  color: $color-black;
+  line-height: 24px;
+}
+
+.additional-prod__item {
+  border-top: 1px solid #e6e6e6;
+  border-bottom: 1px solid #e6e6e6;
+  margin-top: -1px;
+}
+
+.additional-prod__name {
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 12px;
+  padding-left: 3px;
+  text-transform: uppercase;
+  line-height: 16px;
+}
+
+.additional-prod-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.additional-prod__prop,
+.additional-prod__price {
+  margin-bottom: 14px;
+  font-size: $fz-14;
+  line-height: 14px;
+  font-family: $font-Arial;
+}
+
+.additional-prod__btn {
+  display: block;
+  text-align: center;
+  color: $color-white;
+  margin-bottom: 17px;
+  padding-top: 12px;
+  padding-left: 2px;
+}
