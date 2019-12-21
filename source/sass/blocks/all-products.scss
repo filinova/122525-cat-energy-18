@@ -1,11 +1,38 @@
 .all-products {
   @include font-regular;
   text-align: center;
+  position: relative;
+  padding-top: 19px;
+  border-bottom: 1px solid $border-grey;
+}
+
+.cross {
+  position: absolute;
+  left: 125px;
+  width: 31px;
+  height: 31px;
+}
+
+.cross::before,
+.cross::after {
+  position: absolute;
+  left: 15px;
+  content: "";
+  height: 30px;
+  width: 2px;
+  background-color: #d3d3d3;
+}
+
+.cross::before {
+  transform: rotate(90deg);
 }
 
 .all-products__title {
   display: block;
-  margin-top: 85px;
+  margin-top: 55px;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  line-height: 20px;
 }
 
 .all-products__descr {
@@ -13,12 +40,14 @@
   font-family: "Arial", sans-serif;
   font-size: 12px;
   line-height: 16px;
-  margin-bottom: 25px;
-  margin-top: 15px;
+  margin-bottom: 17px;
+  color: $color-dark-grey;
 }
 
 .all-products__btn {
   display: block;
   color: $color-dark-grey;
   background: $bg-grey;
+  line-height: 20px;
+  margin-bottom: 22px;
 }

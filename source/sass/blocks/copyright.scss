@@ -1,6 +1,6 @@
 .copyright {
   @include font-regular;
-  padding-top: 22px;
+  padding-top: 6px;
   padding-bottom: 22px;
   display: flex;
   justify-content: space-between;
@@ -14,7 +14,12 @@
   color: $color-dark-grey;
 }
 
+.copyright__link {
+  margin-top: 2px;
+  margin-right: -8px;
+}
+
 .copyright__link img {
-  width: 27px;
-  height: 34px;
+  width: 41px;
+  height: 60px;
 }

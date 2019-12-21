@@ -3,21 +3,28 @@
   background-color: $color-white;
 }
 
+.contacts--grey {
+  background-color: $bg-grey;
+}
+
 .contacts-wrapper {
   display: flex;
-  padding-top: 27px;
-  padding-bottom: 27px;
+  justify-content: space-between;
+  padding-top: 14px;
+  padding-bottom: 8px;
 }
 
 .contacts__title {
+  width: 125px;
   font-size: $base-fz;
   color: $color-black;
   line-height: 20px;
   text-transform: uppercase;
-  margin-right: 19px;
+  margin-right: 18px;
 }
 
 .contacts__address {
+  width: 140px;
   font-family: $font-Arial;
   font-size: $fz-14;
   line-height: 20px;

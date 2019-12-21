@@ -1,7 +1,7 @@
 .advantages {
   @include font-regular;
   background-color: $bg-white;
-  margin-bottom: 42px;
+  margin-bottom: 24px;
 }
 
 .advantages__title {
@@ -9,8 +9,8 @@
   color: $color-black;
   line-height: 60px;
   font-weight: 400;
-  margin-top: 20px;
-  margin-bottom: 35px;
+  margin-top: 17px;
+  margin-bottom: 30px;
 }
 
 .advantages__list {
@@ -23,7 +23,7 @@
   list-style-type: none;
   color: $color-dark-grey;
   font-size: $fz-14;
-  padding-bottom: 20px;
+  padding-bottom: 25px;
   position: relative;
 }
 

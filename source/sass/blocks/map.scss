@@ -5,6 +5,11 @@
 
 .map {
   position: relative;
+  overflow: hidden;
+}
+
+.map img {
+  margin-top: -38px;
 }
 
 .map-pin {

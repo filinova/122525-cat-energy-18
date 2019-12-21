@@ -10,35 +10,31 @@
 
 .program__item {
   background-color: $bg-grey;
-  margin-bottom: 20px;
+  margin-bottom: 17px;
 }
 
 .title-wrap {
   display: flex;
-  margin-bottom: 24px;
+  margin-bottom: 22px;
 }
-/*.program-entry__title--slim::before {
-  content: url("../../img/icon-cat-slim.svg");
-  width: 50px;
-  height: 51px;
-  display: inline-block;
-}*/
 
 .program-entry__icon {
   height: 50px;
   width: 50px;
   background: $bg-green;
   border-radius: 50%;
+  margin-left: 3px;
+  margin-top: 3px;
 }
 
 .program-entry__icon--slim img {
-  margin-left: 7px;
+  margin-left: 8px;
   margin-top: -2px;
 }
 
 .program-entry__icon--pro img {
   margin-left: -10px;
-  margin-top: 8px;
+  margin-top: 12px;
 }
 
 .program-entry__title {
@@ -49,8 +45,8 @@
   text-transform: uppercase;
   text-align: center;
   margin: 0;
-  margin-left: 25px;
-  margin-top: 5px;
+  margin-left: 19px;
+  margin-top: 9px;
 }
 
 .program-entry__descr {
@@ -58,7 +54,7 @@
   color: $color-dark-grey;
   font-size: $fz-14;
   line-height: 18px;
-  padding-bottom: 25px;
+  padding-bottom: 22px;
   border-bottom: 1px solid #e6e6e6;
   margin: 0;
 }
@@ -78,5 +74,5 @@
   width: 25px;
   height: 12px;
   display: inline-block;
-  margin-left: 10px;
+  margin-left: 12px;
 }
