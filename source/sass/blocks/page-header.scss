@@ -5,11 +5,7 @@
 .page-header-row {
   display: flex;
   justify-content: space-between;
-}
-
-.logo__img--mobile {
-  padding-top: 11px;
-  padding-bottom: 12px;
+  flex-wrap: wrap;
 }
 
 .page-header__title {
@@ -21,4 +17,10 @@
   border: none;
   background: none;
   padding: 0;
+}
+
+@media (min-width: 768px) {
+  .page-header-row {
+    justify-content: normal;
+  }
 }

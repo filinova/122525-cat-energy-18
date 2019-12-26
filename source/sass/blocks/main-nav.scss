@@ -7,6 +7,8 @@
   line-height: 20px;
   text-align: center;
   display: none;
+  margin: 0 auto;
+  width: 320px;
 }
 
 .main-nav__list {
@@ -21,10 +23,47 @@
   border-bottom: 1px solid #e6e6e6;
 }
 
+.main-nav__item:first-child {
+  border-top: 1px solid #e6e6e6;
+}
+
 .main-nav__item:last-child {
   border: none;
 }
 
 .main-nav__link {
   text-decoration: none;
+}
+
+@media (min-width: 768px) {
+  .main-nav {
+    display: flex;
+    width: 438px;
+    /*align-items: center;*/
+    margin-top: 16px;
+    margin-left: 96px;
+    margin-right: 0;
+    font-size: $fz-18;
+    line-height: 25px;
+  }
+
+  .burger {
+    display: none;
+  }
+
+  .main-nav__list {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .main-nav__item {
+    border: none;
+    margin-left: 34px;
+    /*width: 151px;*/
+  }
+
+  .main-nav__item:first-child {
+    border: none;
+    margin-left: 0;
+  }
 }

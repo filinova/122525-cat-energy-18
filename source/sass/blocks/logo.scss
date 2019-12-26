@@ -1,4 +1,23 @@
-.logo__img {
+.logo__img--mobile {
   height: 40px;
   width: 200px;
+  padding-top: 11px;
+  padding-bottom: 12px;
+}
+
+.logo__img--desktop,
+.logo__img--tablet {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .logo__img--tablet {
+    display: block;
+    margin-top: 24px;
+    /*margin-right: 96px;*/
+  }
+
+  .logo__img--mobile {
+    display: none;
+  }
 }
